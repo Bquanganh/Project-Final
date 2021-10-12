@@ -1,0 +1,226 @@
+.top{
+    position:fixed;
+    width: 100%;
+}
+#header{
+    height: 60px;
+    background-color: #000;
+    display: flex !important;
+    justify-content: space-between !important;
+    box-sizing: border-box ;
+}
+
+#header__nav {
+    display: inline-block;
+    font-size: 16px;
+  
+}
+
+#header__nav li {
+    display: inline-block;
+    
+}
+
+#header__nav .ti-menu {
+    font-size: 16px;
+}
+
+#header .search-button{
+    float: right;
+    padding:0 21px;
+    cursor: pointer;
+}
+
+#header .ti-search {
+    color: #fff;
+    font-size: 16px;
+    line-height: 60px;
+    
+}
+
+#header .user-button{
+    float: right;
+    padding:0 21px;
+    cursor: pointer;
+}
+
+#header .ti-user{
+    font-size: 16px;
+    color: #fff;
+    line-height: 60px;
+}
+
+#header .shopping-button{
+    float: right;
+    padding:0 21px;
+    cursor: pointer;
+    position: relative;
+}
+.shopping-button:hover .cart__list{
+    display:block;
+}
+.cart__list{
+    width: 400px;
+    position:absolute;
+    top:100%;
+    right:20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px #ccc;  
+    animation: growth linear 0.1s;
+    display:none;
+}
+.cart__list-no-cart{
+    width: 100%;
+        
+}
+#header .ti-shopping-cart{
+    font-size: 16px;
+    color: #fff;
+    line-height: 60px;
+    
+}
+
+#header .instagram-button{
+    float: right;
+    padding:0 21px;
+    cursor: pointer;
+}
+#header .ti-instagram{
+    font-size: 16px;
+    color: #fff;
+    line-height: 60px;
+}
+#header__nav li a{
+    color: #fff;
+    text-decoration: none;
+    line-height:60px;
+    padding: 0 40px;
+    display: inline-block;
+}
+#header .button__icon--small{
+    background-color: #000;
+    height: 60px;
+    float: right;
+    padding-right: 30px;
+}
+
+.Modal .Modal__body .Modal__inner {
+    font-family: sans-serif;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5% 0;
+    color: #fff;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    
+}
+.Modal__body .Modal__inner h1 {
+    text-align: center;
+}
+
+.Modal__body .input-box{
+    margin: 20px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.Modal__body .input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+::placeholder {
+	color: #cccccc;
+}
+
+.fa{
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+.eye {
+	position: absolute;
+}
+#hide-eye {
+	display: none;
+}
+
+.Modal__body .login-button{
+    width: 80%;
+	background: transparent;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 16px;
+	cursor: pointer;
+	display: block;
+	margin: 40px auto 20px;
+	outline: none;
+	padding: 10px 0;
+	border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+.Modal__body .Modal__inner h3{
+    font-size: 1.5em;
+    display: block;
+    margin-right: 20px;
+    float: right;
+}
+
+
+#slider{
+
+}
+
+#content{
+    margin: 0 100px;   
+}
+
+#content .content__list{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#content .content__title{
+    width: 100%;
+    background-color: #fff;
+    height: 100px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Roboto', "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#summer .content__list--summer{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+.summer{
+    margin: 0 100px;
+    
+}
+.title-hot{
+    height: 50px;
+    padding-top:20px;
+    text-align: center;
+    
+}
+.title-sup{
+   height: 30px;
+    font-size: 1.5rem;
+}
+
+
+#footer{
+
+}
