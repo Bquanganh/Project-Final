@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion shop</title>
+    <title>Shirt</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,500,700,500italic,700italic,900&amp;subset=latin,greek,greek-ext,vietnamese,latin-ext,cyrillic-ext,cyrillic" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,6 @@
 <body>
     <div id="main">
         <div class="top">
-
             <div id="header">
                 <!-- Begin: Nav -->
                 <ul id="header__nav">
@@ -30,8 +29,8 @@
                         <a href="./bag.html">BAG</a>
                     </li>
                     <li><a href="./hat.html">HAT</a></li>
-                    <li><a href="./short.html">SHORT</a></li>
-                    <li><a href="./jeans.html">JEANS</a></li>
+                    <li><a href="">SHORT</a></li>
+                    <li><a href="">JEANS</a></li>
                     <li>
                         <a href="#">
                             MORE
@@ -66,19 +65,17 @@
             </div>
         </div>
 
-        <div id="slider">
+        <div id="">
 
         </div>
 
         <div id="content">
-            <div class="Cont__img" data-aos="zoom-in">
-                <div class="col-12 text-center mb-2 px-0">
-                <img src="./Img/1.jpg"  style="margin:auto; width:100%;"></a>
+            <div class="content__move">
+                <div class="search-button " >
+                    <a class="content__home" href="./index.html">
+                        <i class="ti-home"> / Shirt</i>
+                    </a>
                 </div>
-            </div>
-            <div class="content__title">
-                    <p class="title-hot">Hot Products</p> 
-                    <p class="title-sup">The most sought-after and best-selling fashion products</p>
             </div>
             <div class="content__list">
 
@@ -92,13 +89,13 @@
                     <img src="./Img/ao3.jpg" alt="">
                 </div>  
                 <div class="content__Tshirt">
-                    <img src="./Img/ao2.jpg" alt="">
+                    <img src="./Img/ao10.jpg" alt="">
                 </div>
                 <div class="content__Tshirt">
-                    <img src="./Img/ao5.jpg" alt="">
+                    <img src="./Img/ao11.jpg" alt="">
                 </div>
                 <div class="content__Tshirt">
-                    <img src="./Img/ao4.jpg" alt="">
+                    <img src="./Img/ao13.jpg" alt="">
                 </div>
                 <div class="content__Tshirt">
                     <img src="./Img/ao6.jpg" alt="">
@@ -112,25 +109,6 @@
             </div>
             
         </div>
-        <div class="summer-img">
-            <a href="">
-                <img src="./Img/beach.jpg" alt="">
-            </a>
-        </div>
-        <div class="summer">
-            <div class="content__list--summer">
-                    <a class="summer__comboClothes" href=""><img src="./Img/sumer1.jpg" alt=""></a>
-                    <a class="summer__comboClothes" href=""><img src="./Img/sumer2.jpg" alt=""></a>
-                    <a class="summer__comboClothes" href=""><img src="./Img/sumer3.jpg" alt=""></a>
-                    <a class="summer__comboClothes" href=""><img src="./Img/sumer5.jpg" alt=""></a>
-                    <a class="summer__comboClothes" href=""><img src="./Img/sumer6.jpg" alt=""></a>
-                    <a class="summer__comboClothes" href=""><img src="./Img/sumer7.jpg" alt=""></a>
-                    <a class="summer__comboClothes" href=""><img src="./Img/sumer9.jpg" alt=""></a>
-                    <a href="" class="summer__comboClothes"><img src="./Img/sumer10.jpg" alt=""></a>
-                    <a href="" class="summer__comboClothes"><img src="./Img/sumer11.jpg" alt=""></a>
-            </div>
-        </div>
-
         <div id="footer">
             <div class="footer__logo">
                 <div class="footer__logo-top">
@@ -166,53 +144,5 @@
                 </div>
         </div>
     </div>
-    <div class="Modal  ">
-    
-
-            <div class="Modal__overlay">
-
-            </div>
-            <div class="Modal__body">
-                <div class="Modal__inner">
-                    <div class="login-page" id="login">
-                        <h1>LOGIN</h1>
-                        <div class="input-box">
-                            <i class="fa fa-user-o"></i>
-                            <input type="text" placeholder="USER NAME" id="user">
-                        </div>
-                        <div class="input-box">
-                            <i class="fa fa-key"></i>
-                            <input type="password" placeholder="PASSWORD" id="pwd">
-                            <span class="eye" id="eye-icon">
-                                <i class="fa fa-eye" id="hide-eye"></i>
-                                <i class="fa fa-eye-slash" id="hide-eye-slash"></i>
-                            </span>
-                        </div>
-                        <button type="button" class="login-button" onclick="loginClick()">CONFIRM</button>    
-                            <h3>SIGN IN</h3>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-    <script>
-        const login = document.querySelector('.js-login')
-        const Modal = document.querySelector('.Modal')
-        const ModalOverlay= document.querySelector('.Modal__overlay')
-        function loginShow(){
-
-             Modal.classList.add('open')
-        }
-        function loginDelete(){
-             Modal.classList.remove('open')
-
-        }
-        ModalOverlay.addEventListener('click',loginDelete)
-        
-        login.addEventListener('click',loginShow)
-        
-    </script>
 </body>
 </html>
